@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+@import url('https://fonts.cdnfonts.com/css/miama-nueva');
+
+                
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+
+
+.miama-fonts {
+    font-family: 'Miama Nueva', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#shape{
+    font-family:  Miama Nueva;
+}                                            
+
+.body{
+    background: #111111;
+}
+.display-flex{
+    display: flex;
+    
+}
+/* nav-ber */
+.header-nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header{
+    max-width: 1440px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 57px;
+    
+}
+
+/* .header-nav, .header-banner-container {
+    margin: 0 auto;
+} */
+
+.header-nav > h3{
+    font-size: 36;
+    color:#E6533C ;
+    font-weight: 800;
+    
+}
+
+.btn-primary{
+    background-color: #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.btn-secondary{
+    background-color:black;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 46px;
+    padding: 8px 20px 8px 20px;
+    color:rgb(255, 255, 255); ;
+}
+
+.button-gap{
+    display: flex;
+    gap: 10px;
+}
+.item-ul{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    gap:47px ;
+    justify-items: center;
+    align-items: center;
+    width: 465px;
+    height: 46px;
+    border-radius: 39px;
+    padding: 4px;
+    
+}
+.item-list{
+   list-style: none;
+   color:#FFFFFF ;
+  
+}
+
+.a-list{
+    text-decoration: none;
+    
+}
+
+.header-banner-container{
+    gap: 90px;
+}
+
+.get{
+    font-size: 78px;
+    color: #FFFFFF;
+    font-weight: 900;
+}
+
+.banner-text{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);;
+}
+
+.header-image > img{
+    width: 349px;
+    height: 580px;
+    margin-left: 700px;
+    /* margin-right:20px ; */
+}
+
+#circle{
+    background-color:#E6533C ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.circle-div{
+    display: flex;
+    background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left: 590px;
+    margin-top: -165px;
+   
+}
+
+.circle-350one{
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+}
+.circle-video{
+    font-size: 11px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+   
+
+}
+
+.circle-div2{
+    display: flex;
+    background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    width: 193px;
+    height: 98px;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-left:950px;
+    margin-top: -370px;
+   
+}
+
+.circle-500one{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .section-header {
+        max-width: 100%;
+        margin: 0 auto;
+        /* margin-right: 190px;
+        margin-top: 57px; */
+    }
+
+    .header-banner-container {
+        gap: 0px;
+        flex-direction: column;
+    }
+    .header-image > img {
+        width:353px;
+        height:588px;
+        margin: 0;
+        /* margin-right: 20px; */
+    }
+
+    .circle-div {
+        display: flex;
+        background: rgba(48, 48, 48, 0.54);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        width: 206px;
+        height: 96px;
+        border-radius: 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-left: -10px;
+        margin-top: -320px;
+    }
+
+    .circle-div2 {
+        display: flex;
+        background: rgba(48, 48, 48, 0.54);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(20px);
+        width: 193px;
+        height: 98px;
+        border-radius: 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-left: 200px;
+        margin-top: -310px;
+    }
+}
